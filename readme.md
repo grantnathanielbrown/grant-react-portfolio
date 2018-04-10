@@ -1,1 +1,0 @@
-I spent 12 weeks learning web development full-time, either independently or under the guidance of professional teachers. I designed, wrote, and deployed 4 full-stack applications / projects which utilized HTML, CSS, Javascript, ReactJS, node.js, express.js, Bootstrap, Ruby on Rails, PostgreSQL, MongoDB, and more.
