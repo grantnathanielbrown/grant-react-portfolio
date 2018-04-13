@@ -19,7 +19,6 @@ class HomePage extends Component {
                         <a href="https://github.com/grantnathanielbrown" >GitHub</a>
                         <a href="https://www.linkedin.com/in/grant-brown-a6b87a92/" >LinkedIn</a>
                         <a href="mailto:gnb225@nyu.edu" >Email (gnb225@nyu.edu)</a>
-                        <a href="https://www.facebook.com/grant.brown.395?ref=bookmarks" >Facebook</a>
                         <a href="https://twitter.com/gnb225?lang=en" >Twitter</a>
                         <p>571-249-8475 (cell)</p>
                     </div>
