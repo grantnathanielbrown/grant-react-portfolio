@@ -16,11 +16,10 @@ class HomePage extends Component {
                     </div>
                     <div className="contact-me">
                         <h3>Contact</h3>
-                        <a href="https://github.com/grantnathanielbrown" >GitHub</a>
-                        <a href="https://www.linkedin.com/in/grant-brown-a6b87a92/" >LinkedIn</a>
-                        <a href="mailto:gnb225@nyu.edu" >Email (gnb225@nyu.edu)</a>
-                        <a href="https://twitter.com/gnb225?lang=en" >Twitter</a>
-                        <p>571-249-8475 (cell)</p>
+                        <a href="https://github.com/grantnathanielbrown" ><i class="fab fa-github fa-2x"></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/grant-brown-a6b87a92/"><i class="fab fa-linkedin fa-2x"></i> LinkedIn</a>
+                        <a href="mailto:gnb225@nyu.edu" ><i class="fas fa-envelope-square fa-2x"></i> Email (gnb225@nyu.edu)</a>
+                        <a href="https://twitter.com/gnb225?lang=en"><i class="fab fa-twitter fa-2x"></i> Twitter</a>
                     </div>
                 </div>
             </div>
@@ -29,3 +28,7 @@ class HomePage extends Component {
 }
 
 export default HomePage;
+
+// about + contact title = div 1
+// both contents = div 2
+// left and righthand content = div 3 and 4
