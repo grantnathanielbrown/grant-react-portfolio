@@ -15,8 +15,8 @@ class App extends Component {
       <div>
         <Navbar />
         <main>
-          <Route path={`${process.env.PUBLIC_URL}/home`} component={HomePage}/>
-          <Route path={`${process.env.PUBLIC_URL}/projects`} component={ProjectsPage}/>
+          <Route path={`http://grantnbrown.com/home`} component={HomePage}/>
+          <Route path={`http://grantnbrown.com/projects`} component={ProjectsPage}/>
           {/* <Route path='/about' render={() => <AboutPage />}/> */}
         </main>
       </div>
