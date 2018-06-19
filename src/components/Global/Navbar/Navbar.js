@@ -12,7 +12,7 @@ class Navbar extends Component {
             <div>
                 <nav className="navbar">
                     <h1>GRANT BROWN</h1>
-                    <Link to='/home'>HOME</Link>
+                    <Link to='/'>HOME</Link>
                     <Link to='/projects'>PROJECTS</Link>
                 </nav>
             </div>

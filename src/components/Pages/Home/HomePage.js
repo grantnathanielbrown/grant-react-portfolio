@@ -19,7 +19,7 @@ class HomePage extends Component {
                         <a href="https://github.com/grantnathanielbrown" ><i class="fab fa-github fa-2x"></i> GitHub</a>
                         <a href="https://www.linkedin.com/in/grant-brown-a6b87a92/"><i class="fab fa-linkedin fa-2x"></i> LinkedIn</a>
                         <a href="mailto:gnb225@nyu.edu" ><i class="fas fa-envelope-square fa-2x"></i> Email (gnb225@nyu.edu)</a>
-                        <a href="https://twitter.com/gnb225?lang=en"><i class="fab fa-twitter fa-2x"></i> Twitter</a>
+                        <a href="https://github.com/grantnathanielbrown/grant-brown-resume/blob/master/Grant%20Brown%20Resume%206.5.2018.pdf"><i class="fas fa-file-alt fa-2x"></i> Resume</a>
                         <p>571-249-8475</p>
                     </div>
                 </div>
