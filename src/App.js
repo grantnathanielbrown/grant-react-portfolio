@@ -16,12 +16,6 @@ class App extends Component {
       <div>
         <Navbar />
         <Main />
-        {/* <main> */}
-          {/* <Switch> */}
-            {/* <Route exact path={`${process.env.PUBLIC_URL}`} component={HomePage}/>
-            <Route path={`${process.env.PUBLIC_URL}/projects`} component={ProjectsPage}/> */}
-          {/* </Switch> */}
-        {/* </main> */}
       </div>
     );
   }
