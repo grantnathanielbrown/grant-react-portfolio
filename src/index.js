@@ -9,8 +9,8 @@ import { Route, Link, Switch, Redirect, withRouter } from 'react-router-dom'
 import {HashRouter as Router} from 'react-router-dom'
 
 ReactDOM.render(
-<Router>
-<App />
-</Router>
+    <Router>
+    <App />
+    </Router>
 , document.getElementById('root'));
 registerServiceWorker();
