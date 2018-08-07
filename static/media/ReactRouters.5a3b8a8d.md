@@ -17,6 +17,8 @@ But wait! I needed to make sure I could actually get the animation that I wanted
 
 [animeJS demo](https://codepen.io/grantnathanielbrown/pen/oyVoME)
 
+
+
 Awesome! Now, all I had to do was download and import the package in my app.js.
 
 Except... it wasn't working. Argh, why not?
@@ -59,8 +61,9 @@ Many of my friends who are experienced programmers stress the importance of mast
 
 ### 3. Don't put the cart before the horse.
 
-I was so fixated on using AnimeJS to solve my problems, that I developed tunnel vision. Not only did I fail to plan out what I was doing, I also forgot to ask the basic questions of "Can I use this in my technology stack?" and "Is there an easier / better way to do this?". I also fell prey to [sunk cost fallacy](https://en.wikipedia.org/wiki/Sunk_cost), spending hours of time on my initial plan, as opposed to abandoning it and trying to find an alternate route to the finish line (which was much quicker.)
+I developed tunnel vision, viewing AnimeJS as the only route from point A to point B. Not only did I fail to plan out what I was doing, I also forgot to ask the basic questions of "Can I use this in my technology stack?" and "Is there an easier / better way to do this?". I also fell prey to [sunk cost fallacy](https://en.wikipedia.org/wiki/Sunk_cost), spending hours of time on my initial plan, as opposed to abandoning it and trying to find an alternate route to the finish line (which was much quicker.)
 
 ## In Conclusion
 
 It's important to spend a lot of time planning the necessary steps in the process of implementing new code. In addition, you should consider how your present challenges impact your growth and development as a coder.
+<br>
