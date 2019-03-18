@@ -22,9 +22,9 @@ body {
 .navbar h1 {
     font-size: 24px;
 }
-/* nav a:visited {
+nav a:visited {
     color: black
-} */
+}
 
 nav a:hover {
     background-color: lightblue;
@@ -132,6 +132,7 @@ nav h1 {
 .project-link-container a {
     float: right;
     text-decoration: none;
+    color: black;
 }
 
 .project-link-container a:visited {
@@ -160,12 +161,33 @@ nav h1 {
     font-size: 21px;
     line-height: 1.5;
     font-family: 'Times New Roman';
+    margin: auto;
 }
 
 .blog-post-container img{
     max-width: 30%;
     margin: 10px;
 }
+
+.side-navigation li {
+    cursor: pointer;
+    list-style: none;
+    margin: 1em;
+}
+
+.side-navigation li:hover {
+    color: gray;
+ }
+
+   
+.side-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
 
 /* MOBILE */
 

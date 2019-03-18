@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
 
-import ProjectLink from '../ProjectLink/ProjectLink'
-import SubHeader from '../../../Global/SubHeader/SubHeader'
+import ProjectLink from '../ProjectLink/ProjectLink';
+import SubHeader from '../../../Global/SubHeader/SubHeader';
+
+import CMK from '/Users/grant/Desktop/grant-react-portfolio/src/components/Global/ChristenKerr-245 Cropped.jpg';
 class ProjectsPage extends Component {
     constructor(props) {
         super(props)
@@ -34,6 +36,9 @@ class ProjectsPage extends Component {
                     <ProjectLink title="Slithereen" description="Multiplayer trivia game." link="https://grantnathanielbrown.github.io/slithereen/"
                     image="https://i.imgur.com/lS0M6kP.png"
                     githubLink="https://github.com/grantnathanielbrown/slithereen/tree/master/slithereen-frontend" />
+                    <ProjectLink title="Christen M. Kerr" description="Business website made for a professional psychiatrist." link="http://christenkerrmd.com/#/"
+                    image={CMK}
+                    githubLink="https://github.com/grantnathanielbrown/cmk_react_site" />
                     {/* <ProjectLink title="Bear Attacks!" description="Choose your own adventure style text games."
                      link="https://github.com/grantnathanielbrown/snakestuff" image="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/European_Brown_Bear.jpg/1200px-European_Brown_Bear.jpg"/> */}
                     {/* <ProjectLink title="Hangman" description="Replayable hangman game." link="https://grantnathanielbrown.github.io/wdi-project-one/"
