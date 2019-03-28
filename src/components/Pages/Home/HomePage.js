@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import SubHeader from '../../Global/SubHeader/SubHeader'
 class HomePage extends Component {
     render() {
-        var about = `Hands-free web developer with a passion for manga, politics, and of course, coding.
+        var about = `Web developer with a passion for manga, politics, and of course, coding.
         I enjoy building websites and applications that give users a tighly curated experience,
         focusing on functionality over fluff. Regardless of whether I'm the student or teacher,
         I'm learning, and loving it.`

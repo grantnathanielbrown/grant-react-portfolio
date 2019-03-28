@@ -4,7 +4,9 @@ import React, { Component } from 'react';
 import ProjectLink from '../ProjectLink/ProjectLink';
 import SubHeader from '../../../Global/SubHeader/SubHeader';
 
-import CMK from '/Users/grant/Desktop/grant-react-portfolio/src/components/Global/ChristenKerr-245 Cropped.jpg';
+import CMK from '/Users/grant/Desktop/grant-react-portfolio/src/components/Images/Screen Shot 2019-03-27 at 5.31.44 PM.png';
+import sli from '/Users/grant/Desktop/grant-react-portfolio/src/components/Images/Screen Shot 2019-03-11 at 4.43.31 PM.png';
+import kiz from '/Users/grant/Desktop/grant-react-portfolio/src/components/Images/Screen Shot 2019-03-27 at 4.59.29 PM.png';
 class ProjectsPage extends Component {
     constructor(props) {
         super(props)
@@ -31,10 +33,10 @@ class ProjectsPage extends Component {
                 <SubHeader header={"Projects"} footnote={"Made with a wide variety of technologies, including (but not limited to) HTML, CSS, Javascript, React, Node.js, Express.js, Socket.io, and MongoDB"}  />
                 <main className="project-container">
                     <ProjectLink title="MANGAD" description="An image sharing site for manga enthusiasts."
-                     link="https://mangad.herokuapp.com/" image="https://ih1.redbubble.net/image.491015001.2844/flat,1000x1000,075,f.u1.jpg"
+                     link="https://mangad.herokuapp.com/" image={kiz}
                      githubLink="https://github.com/grantnathanielbrown/Mangad" />
                     <ProjectLink title="Slithereen" description="Multiplayer trivia game." link="https://grantnathanielbrown.github.io/slithereen/"
-                    image="https://i.imgur.com/lS0M6kP.png"
+                    image={sli}
                     githubLink="https://github.com/grantnathanielbrown/slithereen/tree/master/slithereen-frontend" />
                     <ProjectLink title="Christen M. Kerr" description="Business website made for a professional psychiatrist." link="http://christenkerrmd.com/#/"
                     image={CMK}

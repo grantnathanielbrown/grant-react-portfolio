@@ -26,7 +26,7 @@ class BlogPage extends Component {
     }
 
     componentWillMount() {
-        const readmePath = require("../BlogPost/test.md")
+        const readmePath = require("../BlogPost/dodgingTrap.md")
 
         fetch(readmePath)
     .then(response => {
@@ -47,8 +47,7 @@ class BlogPage extends Component {
                 <div className="blog-container">
                   <div className="side-flex">
                   
-                    <ul className="side-navigation">                                    
-                      <li className="test.md" onClick={this.showNewPost} href="#">Test - March 21st, 2019</li>
+                    <ul className="side-navigation">                                                          
                       <li className="dodgingTrap.md"onClick={this.showNewPost} href="#">Dodging The Trap - July 11th, 2018</li>
                     </ul> 
                         <BlogPost content={this.state.markdown}  />
