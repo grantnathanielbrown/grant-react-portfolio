@@ -3,43 +3,47 @@ import React, { Component } from 'react';
 import { Route, Link, Redirect, Switch } from 'react-router-dom';
 // import Anime from 'react-anime';
 import anime from 'animejs';
-
+// 1 event listener on mouse enter and mouse leave
+// 2 variable= anime()
+// 3 mouse enter {function } and mouse leavefunction 
+// 4
 class Navbar extends Component {
     constructor(props) {
-        super(props) 
+        super(props)
+        this.state = {
+            color: "black" ,
+        }
 
 
-        this.buttonAnimation = this.buttonAnimation.bind(this);
-        this.navHover = this.navHover.bind(this);
-        this.navAway = this.navAway.bind(this);
+        // this.buttonAnimation = this.buttonAnimation.bind(this);
+        // this.navHover = this.navHover.bind(this);
+        // this.navAway = this.navAway.bind(this);
     }
-    buttonAnimation(element, color, direction){
-        anime({
+    test(){
+       
+    }
+
+    colorChangerAnimation(e) {
+        var x = e.target;
+        console.log(x);
+        let colorChanger = anime({
             
-            targets: element,
+            targets: x,
             // background: rgb(0, 0, 150),
-            color: color,
+            color: "#1DA1F2",
             duration: 2000,
-            direction: direction
+            // 
+            
         })
-    } 
-
-    // test(){
-    //     anime({
-    //         translateX: 250
-    //     })
+        
+        // colorChanger.play
+        
+    }
+    // navAway(e) {
+    //     var x = e.target;
+    //     console.log(x);
+    //     this.buttonAnimation(x, '#1DA1F2', 'reverse');
     // }
-
-    navHover(e) {
-        var x = e.target;
-        console.log(x);
-        // this.buttonAnimation(x, '#1DA1F2','forwards');
-    }
-    navAway(e) {
-        var x = e.target;
-        console.log(x);
-        this.buttonAnimation(x, '#1DA1F2', 'reverse');
-    }
 
     // navAway(e) {
     //     var element = e.target;
@@ -54,15 +58,26 @@ class Navbar extends Component {
     // }
 
     render() {
+        // let colorChanger = anime({
+        //     targets: ".nav-anchor",    
+        //     color: "#1DA1F2",
+        //     duration: 2000,
+        //     autoplay: false,
+            
+        // })
+        
         return (
             <div>
                 <nav className="navbar" id="navbar-main">                
                     <h1>GRANT BROWN</h1>
                     {/* <Anime> */}
-
-                        <Link className="nav-anchor" onMouseOver={this.navHover} onMouseLeave={this.navAway}  to='/'>HOME</Link>
-                        <Link className="nav-anchor" onMouseOver={this.navHover} onMouseLeave={this.navAway}  to='/projects'>PROJECTS</Link>
-                        <Link className="nav-anchor" onMouseOver={this.navHover} onMouseLeave={this.navAway}  to='/blog'>BLOG</Link>
+                        
+                        <Link className="nav-anchor" 
+                        onMouseEnter={(e) => {anime({targets: e.target,color: "#1DA1F2", duration: 3000,}), console.log(e.target)}}
+                        onMouseLeave={(e) => {anime({targets: e.target,color: "#000000", duration: 3000,}), console.log(e.target)}}
+                        to='/'>HOME</Link>
+                        <Link className="nav-anchor"    to='/projects'>PROJECTS</Link>
+                        <Link className="nav-anchor"    to='/blog'>BLOG</Link>
                     {/* </Anime> */}
                 </nav>
             </div>
