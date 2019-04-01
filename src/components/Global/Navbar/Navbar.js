@@ -74,7 +74,7 @@ class Navbar extends Component {
                         
                         <Link className="nav-anchor" 
                         onMouseEnter={(e) => {anime({targets: e.target,color: "#1DA1F2", duration: 3000,}), console.log(e.target)}}
-                        onMouseLeave={(e) => {anime({targets: e.target,color: "#000000", duration: 3000,}), console.log(e.target)}}
+                        onMouseLeave={(e) => {anime({targets: e.target,color: "#000000", duration: 3000, easing: "linear"}), console.log(e.target)}}
                         to='/'>HOME</Link>
                         <Link className="nav-anchor"    to='/projects'>PROJECTS</Link>
                         <Link className="nav-anchor"    to='/blog'>BLOG</Link>
@@ -83,6 +83,6 @@ class Navbar extends Component {
             </div>
         )
     }
-}
+} 
 
 export default Navbar;
