@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://grantnbrown.com/",
   "dependencies": {
+    "@svgr/cli": "^4.1.0",
     "animejs": "^3.0.1",
     "classnames": "^2.2.6",
     "hoek": "^5.0.3",
@@ -11,6 +12,7 @@
     "react": "^16.3.0",
     "react-anime": "^2.2.0",
     "react-dom": "^16.3.0",
+    "react-inlinesvg": "^0.8.4",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
     "react-share": "^2.2.0"
