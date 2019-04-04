@@ -27,10 +27,11 @@ body {
 nav a:visited {
     color: black
 }
+
+
 .bracket_container {
     height: 50px;
     width: 50px;
-    transform: scale(1, -1), translate(0, -100);
 }
 .first_left {
     stroke-dasharray: 150;
@@ -45,6 +46,7 @@ nav a:visited {
     opacity: 0;
     
 }
+
 /* .path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
