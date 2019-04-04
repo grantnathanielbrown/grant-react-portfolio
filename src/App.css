@@ -8,6 +8,7 @@ body {
 .navbar {
     display: flex;
     justify-content: flex-end;
+    /* height: 400px; */
 }
 
 .navbar a {
@@ -26,9 +27,23 @@ body {
 nav a:visited {
     color: black
 }
-.test-svg {
+.bracket_container {
     height: 50px;
     width: 50px;
+    transform: scale(1, -1), translate(0, -100);
+}
+.first_left {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 1000;
+    opacity: 0;
+    
+}
+
+.first_right {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 1000;
+    opacity: 0;
+    
 }
 /* .path {
     stroke-dasharray: 1000;
