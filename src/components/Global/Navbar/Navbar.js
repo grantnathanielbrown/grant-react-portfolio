@@ -70,8 +70,8 @@ class Navbar extends Component {
 
                     {/* end home */}
 
-                    {/* <Link className="nav-anchor"    to='/projects'>PROJECTS</Link>
-                    <Link className="nav-anchor"    to='/blog'>BLOG</Link>          */}
+                    <Link className="nav-anchor"    to='/projects'>PROJECTS</Link>
+                    <Link className="nav-anchor"    to='/blog'>BLOG</Link>         
 
                 </nav>
             </div>
