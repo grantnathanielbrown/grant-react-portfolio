@@ -14,9 +14,9 @@ body {
 .navbar a {
     font-size: 1.5em;
     text-decoration: none;
-    margin: 5px;
+    margin: 5px 0px;
     letter-spacing: .2em;
-    padding: 10px;
+    padding: 10px 0;
     color: black;
 }
 
@@ -28,24 +28,61 @@ nav a:visited {
     color: black
 }
 
+.nav-anchor {
+    padding: 0px;
+    margin: 0px; 
+}
 
 .bracket_container {
     height: 50px;
     width: 50px;
 }
+
 .first_left {
     stroke-dasharray: 150;
     stroke-dashoffset: 1000;
     opacity: 0;
-    
+    transform: translate(30px, 5px);
 }
 
 .first_right {
     stroke-dasharray: 150;
     stroke-dashoffset: 1000;
     opacity: 0;
-    
+    transform: translate(-35px, 5px);
 }
+
+.second_left {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 1000;
+    opacity: 0;
+    transform: translate(30px, 5px);
+}
+
+.second_right {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 1000;
+    opacity: 0;
+    transform: translate(-35px, 5px);
+}
+
+.third_left {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 1000;
+    opacity: 0;
+    transform: translate(30px, 5px);
+}
+
+.third_right {
+    stroke-dasharray: 150;
+    stroke-dashoffset: 1000;
+    opacity: 0;
+    transform: translate(-35px, 5px);
+}
+
+
+
+
 
 /* .path {
     stroke-dasharray: 1000;
