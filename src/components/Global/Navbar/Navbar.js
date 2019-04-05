@@ -75,7 +75,7 @@ class Navbar extends Component {
                 }
                     onMouseLeave={(e) => {                               
                     // anime({targets: ".first_left, .first_right", opacity: 0});                   
-                    anime({targets: e.target, color: "#000000",}), console.log(e.target)}}                    
+                    anime({targets: e.target, color: "#000000", }), console.log(e.target)}}                    
                     to='/'>HOME</Link>
                     {right_bracket_render}
 
@@ -86,14 +86,14 @@ class Navbar extends Component {
                     {left_bracket_render_two}
                     <Link className="nav-anchor" 
                     onMouseEnter={(e) => {
-                        anime({targets: e.target, color: "#01B9FF", easing: "linear", duration: 1000});
+                        anime({targets: e.target, color: "#01B9FF", easing: "linear", });
                         // anime({targets: ".second_left, .second_right", opacity: 1, duration: 1000});
                         // anime({targets: ".second_left, .second_right", strokeDashoffset: [anime.setDashoffset, 1000, 0], easing: "linear", loop: true, direction: "forwards", duration: 10000, });                        
                     }
                 }
                     onMouseLeave={(e) => {                               
                     // anime({targets: ".second_left, .second_right", opacity: 0});                   
-                    anime({targets: e.target, color: "#000000",}), console.log(e.target)}}                    
+                    anime({targets: e.target, color: "#000000", duration: 1000}), console.log(e.target)}}                    
                     to='/projects'>PROJECTS</Link>
                     {right_bracket_render_two}
 
