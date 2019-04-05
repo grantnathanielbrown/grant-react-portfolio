@@ -94,7 +94,7 @@ class Navbar extends Component {
                     onMouseLeave={(e) => {                               
                     anime({targets: ".second_left, .second_right", opacity: 0});                   
                     anime({targets: e.target, color: "#000000",}), console.log(e.target)}}                    
-                    to='/'>PROJECTS</Link>
+                    to='/projects'>PROJECTS</Link>
                     {right_bracket_render_two}
 
                     {/* end projects */}                    
@@ -112,7 +112,7 @@ class Navbar extends Component {
                     onMouseLeave={(e) => {                               
                     anime({targets: ".third_left, .third_right", opacity: 0});                   
                     anime({targets: e.target, color: "#000000",}), console.log(e.target)}}                    
-                    to='/'>BLOGS</Link>
+                    to='/blog'>BLOG</Link>
                     {right_bracket_render_three}
 
                     {/* end blogs */}  
