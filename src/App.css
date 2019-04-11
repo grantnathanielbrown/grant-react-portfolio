@@ -261,6 +261,13 @@ nav h1 {
 
 }
 
+.experiment {
+    height: 25em;
+    width: 25em;
+    border-width: 1em;
+    border-style: dashed;
+}
+
 
 /* MOBILE */
 

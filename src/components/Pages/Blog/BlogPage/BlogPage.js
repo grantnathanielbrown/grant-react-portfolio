@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import marked from "marked";
 
+import Experiment from '../../../Global/Experiment/Experiment';
 import SubHeader from '../../../Global/SubHeader/SubHeader';
 import BlogPost from '../BlogPost/BlogPost';
 class BlogPage extends Component {
@@ -43,6 +44,7 @@ class BlogPage extends Component {
         // const { markdown } = this.state.markdown
         return (
             <div className="blog-page">
+                {/* <Experiment /> */}
                 <SubHeader header={"Blog"} footnote={"This is where I jot down my thoughts about my recent projects and new discoveries, among other things."} />
                 <div className="blog-container">
                   <div className="side-flex">
