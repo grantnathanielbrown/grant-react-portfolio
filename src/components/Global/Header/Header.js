@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-class SubHeader extends Component {
+class Header extends Component {
     render(props) {
         return (
-            <div className="sub-header">
-                <img src={this.props.img} />
+            <header>
+                <img alt="Grant, the creator of the site" src={this.props.img} />
                 <h1>{this.props.header}</h1>
                 <h3>{this.props.footnote}</h3>
-            </div>
+            </header>
         );
     }
 }
 
-export default SubHeader;
+export default Header;

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 import ProjectLink from '../ProjectLink/ProjectLink';
-import SubHeader from '../../../Global/SubHeader/SubHeader';
+import Header from '../../../Global/Header/Header';
 
 import CMK from '/Users/grant/Desktop/grant-react-portfolio/src/components/Images/Screen Shot 2019-03-27 at 5.31.44 PM.png';
 import sli from '/Users/grant/Desktop/grant-react-portfolio/src/components/Images/Screen Shot 2019-03-11 at 4.43.31 PM.png';
@@ -30,7 +30,7 @@ class ProjectsPage extends Component {
     render() {
         return (
             <div className="projects-page">
-                <SubHeader header={"Projects"} footnote={"Made with a wide variety of technologies, including (but not limited to) HTML, CSS, Javascript, React, Node.js, Express.js, Socket.io, and MongoDB"}  />
+                <Header header={"Projects"} footnote={"Made with a wide variety of technologies, including (but not limited to) HTML, CSS, Javascript, React, Node.js, Express.js, Socket.io, and MongoDB"}  />
                 <main className="project-container">
                     <ProjectLink title="MANGAD" description="An image sharing site for manga enthusiasts."
                      link="https://mangad.herokuapp.com/" image={kiz}

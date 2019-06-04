@@ -128,17 +128,14 @@ nav h1 {
     font-size: 24px;
     margin: 30px 15px 30px 30px;
 }
-.contact-me:second-child {
-    margin-bottom: 10px;
-}
+
 .contact-me a {
     margin: 5px;
 }
 
 .home-page .contact-me {
     width: 360px;
-    display: flex;
-    align-items: left;
+    display: flex;    
     justify-content: center;
     flex-direction: column;
     font-size: 24px;
@@ -146,8 +143,7 @@ nav h1 {
 }
 
 
-.home-page .contact-me a {
-    align-self: left;
+.home-page .contact-me a {    
     text-decoration: none;
     color: black;
 }
@@ -161,15 +157,15 @@ nav h1 {
 
 
 
-/* SUBHEADER */
+/* HEADER */
 
-.sub-header{
+header {
     background-color: #F5F8FA;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.sub-header img {
+header img {
     max-height: 200px;
     max-width: 200px;
     height: auto;

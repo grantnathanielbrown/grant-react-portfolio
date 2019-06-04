@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import marked from "marked";
 
 import Experiment from '../../../Global/Experiment/Experiment';
-import SubHeader from '../../../Global/SubHeader/SubHeader';
+import Header from '../../../Global/Header/Header';
 import BlogPost from '../BlogPost/BlogPost';
 class BlogPage extends Component {
     constructor(props) {
@@ -44,9 +44,9 @@ class BlogPage extends Component {
         // const { markdown } = this.state.markdown
         return (
             <div className="blog-page">
-                {/* <Experiment /> */}
-                <SubHeader header={"Blog"} footnote={"This is where I jot down my thoughts about my recent projects and new discoveries, among other things."} />
-                <div className="blog-container">
+                <Experiment />
+                <Header header={"Blog"} footnote={"This is where I jot down my thoughts about my recent projects and new discoveries, among other things."} />
+                <main className="blog-container">
                   <div className="side-flex">
                   
                     <ul className="side-navigation">                                                          
@@ -54,7 +54,7 @@ class BlogPage extends Component {
                     </ul> 
                         <BlogPost content={this.state.markdown}  />
                   </div>
-                </div>
+                </main>
             </div>
         )
     }

@@ -2,25 +2,25 @@ import React, { Component } from 'react';
 import anime from 'animejs';
 
 export default class Experiment extends Component {
-    // sampleFunction() {
-    //     console.log("it is moving");
-    //     anime({
-    //         targets: ".experiment",
-    //         translateX: [0, 500]
-    //     })
-    // }
+  constructor(props) {
+    super(props);
+    // this.myRef = React.createRef();
+  }
   render() {
-    let experiment = 
-    console.log("it is moving");
-    anime({
+    var experiment = anime({
         targets: ".experiment",
         translateX: [0, 500],
-        autoplay: false
+        duration: 2000,
+        direction: "reverse",
+        autoplay: false,
     })
+    console.log(experiment);
 
     return (
       <div>
-        <div className="experiment" onClick={experiment.autoplay()}>
+        <div className="experiment" onClick={experiment.reverse} 
+
+        >
 
         </div>
       </div>
