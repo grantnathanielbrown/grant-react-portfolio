@@ -44,7 +44,7 @@ class BlogPage extends Component {
         // const { markdown } = this.state.markdown
         return (
             <div className="blog-page">
-                <Experiment />
+                {/* <Experiment /> */}
                 <Header header={"Blog"} footnote={"This is where I jot down my thoughts about my recent projects and new discoveries, among other things."} />
                 <main className="blog-container">
                   <div className="side-flex">
