@@ -31,16 +31,6 @@ class ProjectsPage extends Component {
     render() {
         return (
             <div className="projects-page">
-                <Helmet>
-                    <script>
-                    {`
-                        ga('send', {
-                        'hitType': 'pageview',
-                        'page': '/#/blog'
-                        });
-                    `}
-                    </script>
-                </Helmet>
                 <Header header={"Projects"} footnote={"Made with a wide variety of technologies, including (but not limited to) HTML, CSS, Javascript, React, Node.js, Express.js, Socket.io, and MongoDB"}  />
                 <main className="project-container">
                     <ProjectLink title="MANGAD" description="An image sharing site for manga enthusiasts."
