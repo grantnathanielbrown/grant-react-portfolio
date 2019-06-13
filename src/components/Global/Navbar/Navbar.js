@@ -8,7 +8,6 @@ class Navbar extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            first_time: false
         }
     }
 
