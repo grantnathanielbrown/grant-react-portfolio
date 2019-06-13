@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // dependencies
+import ReactBootstrap from 'react-bootstrap';
 import { Route, Link, Redirect, Switch } from 'react-router-dom';
 import anime from 'animejs';
 
@@ -60,62 +61,59 @@ class Navbar extends Component {
 
         return (
             <div>
-                <nav className="navbar" id="navbar-main">                
-                    <h1>GRANT BROWN</h1>
+                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <h1>GRANT BROWN</h1>
+                <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
 
-                    {/* home */}
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                    {left_bracket_render}
-                    <Link className="nav-anchor" 
-                    onMouseEnter={(e) => {
-                        anime({targets: e.target, color: "#01B9FF", easing: "linear", duration: 1000});
-                        // anime({targets: ".first_left, .first_right", opacity: 1, duration: 1000});
-                        // anime({targets: ".first_left, .first_right", strokeDashoffset: [anime.setDashoffset, 1000, 0], easing: "linear", loop: true, direction: "forwards", duration: 10000, });                        
-                    }
+                {/* home */}
+
+                {/* {left_bracket_render} */}
+                <Link className="nav-anchor" 
+                onMouseEnter={(e) => {
+                    anime({targets: e.target, color: "#01B9FF", easing: "linear", duration: 1000});
                 }
-                    onMouseLeave={(e) => {                               
-                    // anime({targets: ".first_left, .first_right", opacity: 0});                   
-                    anime({targets: e.target, color: "#000000", }), console.log(e.target)}}                    
-                    to='/'>HOME</Link>
-                    {right_bracket_render}
-
-                    {/* end home */}
-
-                    {/* projects */}
-
-                    {left_bracket_render_two}
-                    <Link className="nav-anchor" 
-                    onMouseEnter={(e) => {
-                        anime({targets: e.target, color: "#01B9FF", easing: "linear", });
-                        // anime({targets: ".second_left, .second_right", opacity: 1, duration: 1000});
-                        // anime({targets: ".second_left, .second_right", strokeDashoffset: [anime.setDashoffset, 1000, 0], easing: "linear", loop: true, direction: "forwards", duration: 10000, });                        
-                    }
                 }
-                    onMouseLeave={(e) => {                               
-                    // anime({targets: ".second_left, .second_right", opacity: 0});                   
-                    anime({targets: e.target, color: "#000000", duration: 1000}), console.log(e.target)}}                    
-                    to='/projects'>PROJECTS</Link>
-                    {right_bracket_render_two}
+                onMouseLeave={(e) => {                               
+                anime({targets: e.target, color: "#000000", }), console.log(e.target)}}                    
+                to='/'>HOME</Link>
+                {/* {right_bracket_render} */}
 
-                    {/* end projects */}                    
+                {/* end home */}
 
-                    {/* blogs */}
+                {/* projects */}
 
-                    {left_bracket_render_three}
-                    <Link className="nav-anchor" 
-                    onMouseEnter={(e) => {
-                        anime({targets: e.target, color: "#01B9FF", easing: "linear", duration: 1000});
-                        // anime({targets: ".third_left, .third_right", opacity: 1, duration: 1000});
-                        // anime({targets: ".third_left, .third_right", strokeDashoffset: [anime.setDashoffset, 1000, 0], easing: "linear", loop: true, direction: "forwards", duration: 10000, });                        
-                    }
+                {/* {left_bracket_render_two} */}
+                <Link className="nav-anchor" 
+                onMouseEnter={(e) => {
+                    anime({targets: e.target, color: "#01B9FF", easing: "linear", });
                 }
-                    onMouseLeave={(e) => {                               
-                    // anime({targets: ".third_left, .third_right", opacity: 0});                   
-                    anime({targets: e.target, color: "#000000",}), console.log(e.target)}}                    
-                    to='/blog'>BLOG</Link>
-                    {right_bracket_render_three}
+                }
+                onMouseLeave={(e) => {                               
+                anime({targets: e.target, color: "#000000", duration: 1000}), console.log(e.target)}}                    
+                to='/projects'>PROJECTS</Link>
+                {/* {right_bracket_render_two} */}
 
-                    {/* end blogs */}  
+                {/* end projects */}                    
+
+                {/* blogs */}
+
+                {/* {left_bracket_render_three} */}
+                <Link className="nav-anchor" 
+                onMouseEnter={(e) => {
+                    anime({targets: e.target, color: "#01B9FF", easing: "linear", duration: 1000}); 
+                }
+                }
+                onMouseLeave={(e) => {                                                   
+                anime({targets: e.target, color: "#000000",}), console.log(e.target)}}                    
+                to='/blog'>BLOG</Link>
+                {/* {right_bracket_render_three} */}
+
+                {/* end blogs */}
+                </div>      
                 </nav>
             </div>
         )
