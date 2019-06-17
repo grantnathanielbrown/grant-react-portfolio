@@ -45,7 +45,7 @@ class BlogPage extends Component {
         return (
             <div className="blog-page">
                 {/* <Experiment /> */}
-                <Header header={"Blog"} footnote={"This is where I jot down my thoughts about my recent projects and new discoveries, among other things."} />
+                <Header header={['B','l','o','g']} footnote={"This is where I jot down my thoughts about my recent projects and new discoveries, among other things."} />
                 <main className="blog-container">
                   <div className="side-flex">
                   

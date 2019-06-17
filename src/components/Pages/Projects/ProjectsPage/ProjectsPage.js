@@ -31,7 +31,7 @@ class ProjectsPage extends Component {
     render() {
         return (
             <div className="projects-page">
-                <Header header={"Projects"} footnote={"Made with a wide variety of technologies, including (but not limited to) HTML, CSS, Javascript, React, Node.js, Express.js, Socket.io, and MongoDB"}  />
+                <Header header={['P','r','o','j','e','c','t','s']} footnote={"Made with a wide variety of technologies, including (but not limited to) HTML, CSS, Javascript, React, Node.js, Express.js, Socket.io, and MongoDB"}  />
                 <main className="project-container">
                     <ProjectLink title="MANGAD" description="An image sharing site for manga enthusiasts."
                      link="https://mangad.herokuapp.com/" image={kiz}

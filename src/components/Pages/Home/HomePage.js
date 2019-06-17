@@ -13,7 +13,7 @@ class HomePage extends Component {
                 {/* <div className="test-svg">
                     {test}
                 </div> */}
-                <Header img={"https://i.imgur.com/1Ox1DcB.jpg"} header={"Grant Brown"} />
+                <Header img={"https://i.imgur.com/1Ox1DcB.jpg"} header={['G','r','a','n','t']} />
                 <div className="about-contact-columns">
                     <div className="about-me">
                         <h3>About Me</h3>
