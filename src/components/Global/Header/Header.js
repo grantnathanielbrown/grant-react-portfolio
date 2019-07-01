@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import anime from 'animejs';
 
 class Header extends Component {
-    componentDidMount () {
+    componentDidMount() {
+        var animatable = document.createElement('div');
+        var element = document.getElementById("page-header");
+        element.appendChild(animatable);
         anime({
             targets: '.page-title',
             translateY: [100,0],
@@ -10,14 +13,17 @@ class Header extends Component {
             delay: anime.stagger(100, {start: 500}),
             backgroundColor: '#00FFFFFF',
             duration: 1600,
-          });
+          }),
+        anime({
+
+        })
     }
     render(props) {
         let nameArray = this.props.header.map((i) => {
             return <span className="page-title">{i}</span>
         });
         return (
-                <header>
+                <header id="page-header">
                     <img src={this.props.img} />
                     <div className="page-title-container">
                         {nameArray}                    
