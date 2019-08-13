@@ -13,10 +13,7 @@ class Header extends Component {
             delay: anime.stagger(100, {start: 500}),
             backgroundColor: '#00FFFFFF',
             duration: 1600,
-          }),
-        anime({
-
-        })
+          })
     }
     render(props) {
         let nameArray = this.props.header.map((i) => {

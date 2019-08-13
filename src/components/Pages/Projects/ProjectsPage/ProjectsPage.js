@@ -8,6 +8,7 @@ import Header from '../../../Global/Header/Header';
 import CMK from '/Users/grant/Desktop/grant-react-portfolio/src/components/Images/Screen Shot 2019-03-27 at 5.31.44 PM.png';
 import sli from '/Users/grant/Desktop/grant-react-portfolio/src/components/Images/Screen Shot 2019-03-11 at 4.43.31 PM.png';
 import kiz from '/Users/grant/Desktop/grant-react-portfolio/src/components/Images/Screen Shot 2019-03-27 at 4.59.29 PM.png';
+import scr from '/Users/grant/Desktop/grant-react-portfolio/src/components/Images/Screen Shot 2019-08-13 at 3.11.22 PM.png';
 class ProjectsPage extends Component {
     constructor(props) {
         super(props)
@@ -42,13 +43,9 @@ class ProjectsPage extends Component {
                     <ProjectLink title="Christen M. Kerr" description="Business website made for a professional psychiatrist." link="http://christenkerrmd.com/#/"
                     image={CMK}
                     githubLink="https://github.com/grantnathanielbrown/cmk_react_site" />
-                    {/* <ProjectLink title="Bear Attacks!" description="Choose your own adventure style text games."
-                     link="https://github.com/grantnathanielbrown/snakestuff" image="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/European_Brown_Bear.jpg/1200px-European_Brown_Bear.jpg"/> */}
-                    {/* <ProjectLink title="Hangman" description="Replayable hangman game." link="https://grantnathanielbrown.github.io/wdi-project-one/"
-                     image="https://images-na.ssl-images-amazon.com/images/I/81xt2%2BPD0IL.png" githubLink="https://github.com/grantnathanielbrown/wdi-project-one" />
-                     <ProjectLink title="esGApe" description="A site to share details on local restaurants and bars."
-                      link="https://disillusioned-pet.surge.sh" image="https://cdn.shopify.com/s/files/1/0917/5854/products/CabSauv_WEB.jpg?v=1520424563"
-                      githubLink="https://github.com/grantnathanielbrown/esGApe-front-end"/> */}
+                    <ProjectLink className="testing" title="Scrappy" description="Scrape Reddit posts and automatically upload them to websites." link="https://grantnathanielbrown.github.io/scraper_project/"
+                    image={scr}
+                    githubLink="https://github.com/grantnathanielbrown/scraper_project" />
                 </main>
             </div>
         );
