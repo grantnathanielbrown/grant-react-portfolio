@@ -34,18 +34,18 @@ class ProjectsPage extends Component {
             <div className="projects-page">
                 <Header header={['P','r','o','j','e','c','t','s']} footnote={"Made with a wide variety of technologies, including (but not limited to) HTML, CSS, Javascript, React, Node.js, Express.js, Socket.io, and MongoDB"}  />
                 <main className="project-container">
-                    <ProjectLink title="MANGAD" description="An image sharing site for manga enthusiasts."
-                     link="https://mangad.herokuapp.com/" image={kiz}
-                     githubLink="https://github.com/grantnathanielbrown/Mangad" />
-                    <ProjectLink title="Slithereen" description="Multiplayer trivia game." link="https://grantnathanielbrown.github.io/slithereen/"
-                    image={sli}
-                    githubLink="https://github.com/grantnathanielbrown/slithereen/tree/master/slithereen-frontend" />
                     <ProjectLink title="Christen M. Kerr" description="Business website made for a professional psychiatrist." link="http://christenkerrmd.com/#/"
                     image={CMK}
                     githubLink="https://github.com/grantnathanielbrown/cmk_react_site" />
+                    <ProjectLink title="Slithereen" description="Multiplayer trivia game." link="https://grantnathanielbrown.github.io/slithereen/"
+                    image={sli}
+                    githubLink="https://github.com/grantnathanielbrown/slithereen/tree/master/slithereen-frontend" />
                     <ProjectLink className="testing" title="Scrappy" description="Scrape Reddit posts and automatically upload them to websites." link="https://grantnathanielbrown.github.io/scraper_project/"
                     image={scr}
                     githubLink="https://github.com/grantnathanielbrown/scraper_project" />
+                    <ProjectLink title="MANGAD" description="An image sharing site for manga enthusiasts."
+                     link="https://mangad.herokuapp.com/" image={kiz}
+                     githubLink="https://github.com/grantnathanielbrown/Mangad" />
                 </main>
             </div>
         );
