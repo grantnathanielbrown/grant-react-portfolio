@@ -7,3 +7,4 @@
 - white out for project images
 - blog post
 - fix blog for mobile
+- Fix nav bar animation 

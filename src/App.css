@@ -287,6 +287,22 @@ header img {
     border-style: dashed;
 }
 
+.yvu-documentation {
+    margin: 5vh 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.centered-span {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.command {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 
 /* MOBILE */
 
