@@ -13,7 +13,7 @@ const Main = () => (
         <Switch>
           <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={BlogPage}/>
           <Route exact path={`${process.env.PUBLIC_URL}/projects`} component={ProjectsPage}/>
-          <Route exact path={`${process.env.PUBLIC_URL}/YVUDocumentation`} component={YVUDocumentation}/>
+          <Route exact path={`${process.env.PUBLIC_URL}/Documentation`} component={YVUDocumentation}/>
           <Route exact path={`${process.env.PUBLIC_URL}`} component={HomePage}/>
         </Switch>
       </HashRouter>

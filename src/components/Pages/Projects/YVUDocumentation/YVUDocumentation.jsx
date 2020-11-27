@@ -2,8 +2,38 @@ import React from 'react';
 // import YVU_Documentation from '../../../../../public/YVU_Documentation';
 export default function YVUDocumentation() {
     return (
-        <div >
+        <div>
             <p className="yvu-documentation">
+            I have updated this page to reflect the information requested in an e-mail that i received from the Google Cloud Platform.
+            In my opinion, I have already satisfied all the criteria listed in the e-mail. I will give an explanation for each criterion on the list.
+            <br/><br/>
+            <span className="command italic">Clearly explain what your app will do with user data.</span>
+            <br/>
+            This application automatically uploads a video file which is stored on my computer to my Youtube account via the Youtube API. The only user data being used is my own Youtube accounts and credentials.
+            <br/><br/>
+            <span className="command italic">Thoroughly describe how your app enhances user functionality.</span>
+            <br/>
+            This application allows me to automatically upload videos to Youtube as opposed to doing so manually.
+            <br/><br/>
+            <span className="command italic">The Privacy Policy must clearly describe how your application accesses, uses, stores, or shares Google user data.
+            Read the Limited Use Requirements for more information and guidance.</span>
+            <br/>
+            This application's use of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.
+            As i said, I am the only one who can use this application.     
+            <br/><br/>
+            <span className="command italic">Be a verified domain under your ownership.</span>
+            <br/>
+            I own this domain, https://grantnbrown.com/.
+            <br/><br/>
+            <span className="command italic">Be accurate, inclusive, and easily accessible to all users.</span>
+            <br/>
+            I am the only user, and have no problem using the application.
+            <br/><br/>
+            <span className="command italic">Be on an externally & publicly accessible domain that describes the content, context, or connection to the app you are submitting.</span>
+            <br/>
+            This page is publicly accessible and could not be more clear. PLEASE contact me if you have any additional questions.
+            <br/><br/>
+
             <span className="centered-span">This is documentation describing the YouTube Video Uploader (YVU), a collection of scripts that work in tandem in order to download, merge, and upload videos with the help of the Reddit/YouTube APIs and the Melt command line tool.</span>
             <br/>
             <span className="centered-span">TERMS OF SERVICE</span>
