@@ -60,7 +60,7 @@ class HomePage extends Component {
             </a>
             <a
               target="_blank"
-              href="https://github.com/grantnathanielbrown/grant-brown-resume/blob/master/Grant%20Brown%20Current%20Resume.pdf"
+              href="https://drive.google.com/file/d/1BkeMTzVjoaNXlw8YMgzCEDryRTpHosNh/view?usp=sharing"
             >
               <i class="fas fa-file-alt fa-2x" /> Resume
             </a>
