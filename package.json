@@ -2,7 +2,7 @@
   "name": "grant-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://grantnbrown.com/",
+  "homepage": "https://grantnbrown.com/",
   "dependencies": {
     "@svgr/cli": "^4.1.0",
     "animejs": "^3.0.1",
